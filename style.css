@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+
+body {
+    background-color:#35413E;
+}
+
+#monster {
+    position: absolute;
+    margin-left: 715px;
+    top: 200px
+}
+
+#drum {
+    position: absolute;
+    margin-left: 850px;
+    color: #E63374;
+    font-family: "Fredericka The Great";
+    font-size: 40px;
+    border-style: double;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 18px
+    
+    
+}
+
+#use {
+    position: absolute;
+    margin-left: 777px;
+    top: 130px;
+    font-family: "Fredericka The Great";
+    font-size: 30px;
+    font-weight: 600
+}
+
+.buttons {
+    margin-top: 700px;
+    margin-left: 74px;
+    color:#E63374;
+    font-family: "Fredericka The Great";
+    font-size: 20px;
+    background-color: black;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: black
+}
+
+#notes {
+    position: absolute;
+    top: 115px;
+    width: 500px;
+    margin-left: 710px
+}
+
+ .buttons:hover {
+    background-color:#BBBBBB;
+    color: black
+  }
+
+
+
