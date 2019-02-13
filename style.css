@@ -8,13 +8,13 @@ body {
 
 #monster {
     position: absolute;
-    margin-left: 715px;
+    text-align: center;
     top: 200px
 }
 
 #drum {
     position: absolute;
-    margin-left: 850px;
+    text-align: center;
     color: #E63374;
     font-family: "Fredericka The Great";
     font-size: 40px;
@@ -28,7 +28,7 @@ body {
 
 #use {
     position: absolute;
-    margin-left: 777px;
+    text-align: center;
     top: 130px;
     font-family: "Fredericka The Great";
     font-size: 30px;
@@ -37,29 +37,39 @@ body {
 
 .buttons {
     margin-top: 700px;
-    margin-left: 74px;
+    text-align: center;
     color:#E63374;
     font-family: "Fredericka The Great";
-    font-size: 20px;
+    font-size: 18px;
     background-color: black;
     padding-top: 20px; 
     padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-color: black
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: black;
+    border-radius: 50%;
+    
 }
+
 
 #notes {
     position: absolute;
     top: 115px;
     width: 500px;
-    margin-left: 710px
+    text-align: center;
 }
+
+
 
  .buttons:hover {
     background-color:#BBBBBB;
     color: black
   }
 
+  .wrapper {
+    display: flex;
+    justify-content: center;
+
+   }
 
 
